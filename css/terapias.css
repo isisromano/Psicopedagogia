@@ -1,0 +1,64 @@
+*{
+    margin: 5px;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.center{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 5 auto;
+    padding: 0 2%;
+ }
+ .center a{
+    color:#fff;
+ }
+ html.body{
+    height: 100%;
+    overflow-y: hidden;
+      overflow-x: hidden;
+ }
+ img.logo{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    background-color:aliceblue
+ }
+
+header{
+    background-color: #191970;
+    color:#fff;
+    height: 200px;
+    padding: 20px 0;
+}
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(80, 153, 216), white);
+}
+img.joao{
+
+    border: 1px solid;
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+    background-color: aliceblue
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #191970;
+    color:#fff;
+}
+footer a{
+    text-decoration: none;
+    color: #00ffff;
+}
